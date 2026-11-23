@@ -1,0 +1,5 @@
+pygame>=2.5                 # audio playback with seekable clock
+numpy>=1.21                 # frame processing for lyric-video OCR
+faster-whisper>=1.0         # fallback: local speech-to-text with word timestamps
+pyobjc-framework-Vision>=9; sys_platform == "darwin"   # macOS Vision OCR
+pyobjc-framework-Quartz>=9; sys_platform == "darwin"
